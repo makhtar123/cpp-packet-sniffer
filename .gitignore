@@ -1,0 +1,13 @@
+# Ignore the build folder
+build/
+cmake-build-debug/
+
+# Ignore Mac system files
+.DS_Store
+
+# Ignore VS Code settings (optional, but recommended)
+.vscode/
+
+# Ignore the compiled executable if it's in the root
+sniffer
+*.o
