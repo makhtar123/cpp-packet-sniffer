@@ -176,7 +176,6 @@ int main(int argc, char *argv[])
     // 2. Compile the filter expression
     // pcap_compile(handle, &fp, expression, optimize, netmask)
     if (pcap_compile(handle, &fp, user_filter.c_str(), 0, net) == -1) {
-        // FIXED: Added user_filter.c_str() so we see WHAT failed
         fprintf(stderr, "Couldn't parse filter '%s': %s\n", 
                 user_filter.c_str(), pcap_geterr(handle));
         return(2);
