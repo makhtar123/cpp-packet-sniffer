@@ -23,13 +23,12 @@ A raw packet capture tool written in C++ that interfaces directly with the Netwo
 - **C++ Compiler:** Clang or GCC.
 - **Build System:** CMake.
 
-## How to Build
+## Build and Run
 ```bash
 mkdir build
 cd build
 cmake ..
 make
-```
-
-## How to run
 sudo ./sniffer
+```
+**Must run with sudo/root priveleges**
