@@ -32,3 +32,6 @@ make
 sudo ./sniffer
 ```
 **Must run with sudo/root priveleges**
+
+## Disclaimer
+This tool is developed for educational purposes and authorized security testing only. The developer is not responsible for any misuse or damage caused by this tool. Always obtain permission before conducting packet sniffing on a network you do not own.
